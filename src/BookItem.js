@@ -5,7 +5,7 @@ export default function BookItem({ title, year, author }) {
     <div>
       <p>{title}</p>
       <p>{year}</p>
-      <ul className='author-info'> 
+      <ul className="author">
         <li>{author.name}</li>
         <li>{author.birth}</li>
       </ul>

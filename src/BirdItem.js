@@ -6,6 +6,7 @@ export default function BirdItem({ bird: { name, type, color } }) {
       <p>{name}</p>
       <p>{type}</p>
       <p>{color}</p>
+      <img src={`./images/${type}.png`} />
     </div>
   );
 }

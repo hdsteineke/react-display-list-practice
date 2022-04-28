@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.bird-item {
+  border: dotted;
+  border-color: goldenrod;
+  width: 250px;
+}
+.book-item {
+  border: dotted;
+  border-color: darkmagenta;
+  width: 250px;
+}
+
+.musician-item {
+  border: dotted;
+  border-color: deeppink;
+  width: 250px;
+}
+
+.color-item {
+  border: dotted;
+  border-color: lightseagreen;
+  width: 250px;
+}
+
+.bird-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.musician-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}

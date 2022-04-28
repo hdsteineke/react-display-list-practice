@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MusicianItem({ artist, album, songs }) {
   return (
-    <div>
+    <div className="musician-item">
       <p>{artist}</p>
       <p>{album}</p>
       <ul className="songs">

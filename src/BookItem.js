@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BookItem({ title, year, author }) {
   return (
-    <div>
+    <div className="book-item">
       <p>{title}</p>
       <p>{year}</p>
       <ul className="author">

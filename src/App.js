@@ -1,10 +1,13 @@
 import './App.css';
 // import your arrays here
+import BirdList from './BirdList.js';
+import { birds } from './birds.js';
 
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      <BirdList birds={birds}/>
+        
     </div>
   );
 }
